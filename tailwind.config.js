@@ -8,6 +8,10 @@ module.exports = {
       },
       maxWidth: {
         laptop: '1440px'
+      },
+      backgroundImage: {
+        mobile: 'url("images/bg-mobile.svg")',
+        desktop: 'url("images/bg-desktop.svg")'
       }
     },
   },

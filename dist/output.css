@@ -17784,6 +17784,14 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-mobile{
+  background-image: url("images/bg-mobile.svg");
+}
+
+.bg-desktop{
+  background-image: url("images/bg-desktop.svg");
+}
+
 .from-transparent{
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -48409,6 +48417,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-mobile{
+    background-image: url("images/bg-mobile.svg");
+  }
+
+  .sm\:bg-desktop{
+    background-image: url("images/bg-desktop.svg");
+  }
+
   .sm\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -78680,6 +78696,14 @@ video {
 
   .md\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-mobile{
+    background-image: url("images/bg-mobile.svg");
+  }
+
+  .md\:bg-desktop{
+    background-image: url("images/bg-desktop.svg");
   }
 
   .md\:from-transparent{
@@ -108955,6 +108979,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-mobile{
+    background-image: url("images/bg-mobile.svg");
+  }
+
+  .lg\:bg-desktop{
+    background-image: url("images/bg-desktop.svg");
+  }
+
   .lg\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -139228,6 +139260,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-mobile{
+    background-image: url("images/bg-mobile.svg");
+  }
+
+  .xl\:bg-desktop{
+    background-image: url("images/bg-desktop.svg");
+  }
+
   .xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -169499,6 +169539,14 @@ video {
 
   .\32xl\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-mobile{
+    background-image: url("images/bg-mobile.svg");
+  }
+
+  .\32xl\:bg-desktop{
+    background-image: url("images/bg-desktop.svg");
   }
 
   .\32xl\:from-transparent{

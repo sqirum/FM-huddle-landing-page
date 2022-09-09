@@ -9,23 +9,41 @@
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
 </head>
-<body class="p-0 m-0 box-content min-h-screen bg-mobile bg-center bg-cover bg-no-repeat lg:bg-desktop">
-  <div class="max-w-xs mx-auto lg:max-w-laptop">
+<body class="p-0 m-0 box-content text-white bg-purple min-h-screen bg-mobile bg-center bg-cover bg-no-repeat md:bg-desktop">
+  <div class="max-w-xs mx-auto md:max-w-2xl lg:max-w-laptop">
     <div class="text-left">
-      <img src="images/logo.svg" alt="huddle logo">
+      <img src="images/logo.svg" alt="huddle logo" class="max-w-logo mt-6">
     </div>
     
-    <div class="flex flex-col">
-      <img src="images/illustration-mockups.svg" alt="mockup design">
+    <div class="flex flex-col lg:flex-row lg:items-center lg:mt-28">
+      <img src="images/illustration-mockups.svg" alt="mockup design" class="mt-4">
 
-      <div>
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-        <button>Register</button>
+      <div class="text-center mt-8 lg:text-left lg:p-12">
+        <h1 class="font-semibold text-2xl lg:text-5xl">Build The Community Your Fans Will Love</h1>
+        <p class="text-base mt-4">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <button class="mt-6 text-purple bg-white py-2 px-10 transition-all duration-300 rounded-full hover:bg-pink hover:text-white hover:shadow-md ">Register</button>
       </div>
     </div>
   
-    <footer></footer>
+    <footer class="mt-8 lg:mt-32">
+      <ul class="flex justify-center lg:justify-end">
+        <li>
+          <a href="#">
+            <img src="images/facebook.svg" alt="facebook icon">
+          </a>
+        </li>
+        <li class="mx-3">
+          <a href="#">
+            <img src="images/twitter.svg" alt="twitter icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/instagram.svg" alt="instagram icon">
+          </a>
+        </li>
+      </ul>
+    </footer>
   </div>
 </body>
 </html>
